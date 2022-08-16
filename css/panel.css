@@ -1,0 +1,53 @@
+.gradient{
+    background: #C02425;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F0CB35, #C02425);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F0CB35, #C02425); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-color: #C02425;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.panel{
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  height: 600px;
+  width: 350px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  align-items: center;
+  justify-content: center, flex-start;
+}
+.formu{
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center, flex-start;
+}
+@keyframes animat{
+  0%{
+    transform: scale(0);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+button{
+  width: 90px;
+}
+.form-select{
+  width:260px;
+}
+#hovb:hover{
+  background-color: #00DBDE;
+  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+  width: 100px;
+  height: 40px;
+}
